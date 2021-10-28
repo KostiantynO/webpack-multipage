@@ -2,16 +2,28 @@
   "name": "webpack-bundler",
   "version": "1.0.0",
   "description": "[Webpack](https://webpack.js.org) - entry point, output point, loaders, plugins",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode=development",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/KostiantynO/webpack-bundler.git"
   },
   "keywords": [],
   "author": "Kostiantyn Ochenash <ochenashk@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
 }
