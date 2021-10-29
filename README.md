@@ -3,6 +3,7 @@
 Create local folder:
 
 ```bash
+rm -rf folder-name
 cd d:/projects/training
 mkdir webpack-bundler
 cd webpack-bundler
