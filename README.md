@@ -110,7 +110,7 @@ git add . && git commit -m "adds modules and webpack config" && git push
    это же каждый раз при каждом изменении файла, только локально и без
    оптимизации.
 
-Вот наш miniCC`Sex`tractPlugin
+Вот наш miniCCSextractPlugin
 
 1. MiniCssExtractPlugin
 2. Смотрим, че надо сделать?
