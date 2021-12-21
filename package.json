@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KostiantynO/webpack-bundler.git"
+    "url": "git+https://github.com/KostiantynO/webpack-multipage.git"
   },
   "keywords": [],
   "author": "Kostiantyn Ochenash <ochenashk@gmail.com>",
