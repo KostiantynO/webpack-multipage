@@ -123,3 +123,4 @@ git add . && git commit -m "adds modules and webpack config" && git push
 3. Добавить настройку.
 
 Так работает, в принципе, весь фронт, та и бек, ели мы говорим о написании кода.
+need to update removed branch.
